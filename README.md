@@ -1,24 +1,12 @@
-# README
+# Rails Sample App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Prereq
+1. `bundle install`
+2. Need a Postgres DB
+  a. `docker run --rm -d -p 5432:5432 -e POSTGRES_USER=rails -e POSTGRES_PASSWORD=password postgres`
 
-Things you may want to cover:
+# Running
+1. `bundle exec passenger start`
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Stopping
+1. Ctrl-C
