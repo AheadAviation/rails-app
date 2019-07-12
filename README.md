@@ -8,5 +8,8 @@
 # Running
 1. `bundle exec passenger start`
 
+# Using
+1. http://0.0.0.0:3000
+
 # Stopping
 1. Ctrl-C
